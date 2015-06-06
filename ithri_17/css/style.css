@@ -1,0 +1,149 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("blocks.css");
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	background:  ;
+	margin-top:1px;
+	
+		
+}
+
+body {
+	font-family: Segoe UI,Tahoma,Trebuchet MS,Arial,Helvetica,sans-serif;
+	font-size: 12px;   
+	line-height: normal;
+	width: 1000px;
+	margin: 0 auto;
+	
+	
+}
+
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;  
+	
+}
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+  color:#333333;
+  
+    
+}
+
+
+/* --------- Header --------- */
+#xo-header {
+	
+	height: 126px;
+	background: url("../img/header.jpg") ;
+}
+
+#banner {
+	float:right;
+	padding-right:90px;
+	padding-top: 12px;
+	width:468px;
+	height:60px;
+	
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:40px;
+	padding-top:12px;
+} 
+
+
+
+/*--- Top Blocks ---*/
+#xo-top-shadow {
+	height: 10px;
+	
+}
+
+
+/* block main menu */
+#mainmenu {	font-size: 1em;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+  font-weight:		bold;
+  color:#333333;
+  
+}
+#mainmenu a:hover {background-color: #f8f8f8; color:#8B2323;}
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+  padding-left: 25px;
+  background: none;
+  border: none;
+  color:#8B5A00;
+  font-size: 1em;
+}
+#mainmenu a.menuSub:hover { background-color: #f8f8f8;}
+
+/* block user menu */
+#usermenu {	font-size: 1em; }
+#usermenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+  color:#00008B;
+  font-weight:		bold;
+  
+}
+
+
+
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background-color: #333;
+	background: url("../img/footer.png") ;
+	width: 1000px;
+	height:40px;
+	margin:0 auto;
+	margin-bottom:1px;
+	
+	
+	
+}
+
+
+.xo-foottext{
+	color: #104E8B;
+	vertical-align: middle;
+	text-align: center;	
+	padding-top:15px;
+	font-weight:			bold;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
